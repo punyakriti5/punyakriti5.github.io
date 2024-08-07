@@ -35,11 +35,11 @@ const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "MERN Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "React JS Developer",
     icon: mobile,
   },
   {
@@ -99,27 +99,33 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Backend Developer",
+    title: "Software Engineer",
     company_name: "Capgemini",
     icon: capgemini,
     iconBg: "#383E56",
-    date: "January 2023 - Present",
+    date: "August 2021- Present",
     points: [
-      "Developed server-side functionalities using Node.js and other related technologies.",
+      "Developed several server-side functionalities using Node.js and Express.js.",
+      "Reduced API response time by an average of 100ms by implementing enhanced database queries, indexing and query optimization and caching mechanisms.",
+      " Developed responsive and intuitive user interfaces using React.js , leveraging state management with Redux for complex application logic.", 
+      "Optimized frontend performance by implementing code-splitting, lazy loading, and caching strategies , resulting in 15% faster load times.",
       "Collaborated with cross-functional teams including testers, product managers and other developers to create high-quality products.",
-      "Participated in code reviews and contributed constructive feedback for Node.js modules.",
+      "Conducted code reviews and facilitated pull requests to ensure high code quality and adherence to project standards.",
+      "Streamlined API integration among services within an established Microservices framework.",
+      "Integrated Single Sign On in the application using OKTA as the service provider with OIDC."
     ],
   },
   {
-    title: "Frontend Developer",
+    title: "Intern",
     company_name: "Capgemini",
     icon: capgemini,
     iconBg: "#383E56",
-    date: "September 2021 - December 2022",
+    date: "March 2021 -   May 2021",
     points: [
-      "Modernized a legacy JSP application by transforming it into an adaptable single page application using React and Material UI.",
-      "Facilitated smooth integration with the existing system.",
-      "Resulted in 30% increase in user engagement after design and architecture of highly scalable internal user management application catering to the user base of 1 million.",
+      "Completed internship focused on web fundamentals including HTML, CSS and JAVASCRIPT.",
+      "Gained experience in developing web applications during this internship.",
+      "Managed MySQL database management , including schema design, query optimization, and data manipulation.",
+      "Utilized Git for version control in a collaborative environment."
     ],
   },
 ];
@@ -139,17 +145,7 @@ const trainings = [
       "Applied knowledge gained from the course to complete various projects, assigned assessments and mock interviews efficiently.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Capgemini",
-    icon: capgemini,
-    iconBg: "#383E56",
-    date: "March 2021 - May 2021",
-    points: [
-      "Web fundamentals (HTML, CSS, JS)",
-      "Basics of React application development.",
-    ],
-  },
+  
 ];
 
 const projects = [

@@ -66,7 +66,7 @@ const Training = () => {
         Elevating Expertise: Training for Excellence
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Training and Internship
+          Trainings
         </h2>
       </motion.div>
 
