@@ -14,6 +14,7 @@ import {
   git,
   figma,
   capgemini,
+  hsc,
   pesto,
   resolvia,
 } from "../assets";
@@ -99,20 +100,41 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Senior Software Engineer",
+    company_name: "Hughes Systique",
+    icon: hsc,
+    iconBg: "#383E56",
+    date: "January 2025 - Present",
+    points: [
+      "Built and shipped production-grade web applications using React, Angular, TypeScript and Node.js/Express, owning features end to end across UI, APIs, data flows and integrations.",
+      "Integrated LLM and agentic AI capabilities into application workflows to deliver AI-powered functionality and more intuitive user experiences.",
+      "Developed schema-driven applications and reusable components, reducing repetitive UI development and enabling flexible configuration.",
+      "Worked with PostgreSQL, MySQL and MongoDB for application data and backend integrations.",
+      "Agentic AI Observability Platform (React 19, Vite, Recharts, GitLab CI, Docker/Kubernetes): built views to monitor production AI agents, covering traces and spans, guardrail checks, LLM-as-a-Judge scores, token usage, cost and latency.",
+      "Shipped a per-agent latency trend chart (Avg / P50 / P95) that helps engineers find the agent slowing a multi-step workflow; released to production in v1.0.11.",
+      "Made dashboards resilient with loading, empty and fallback states, and fixed epoch seconds/milliseconds and local-timezone handling in trace views.",
+      "Added persistent user preferences (last tab, filters, refresh interval) and improved chart accuracy by showing idle agents as absent and adding run counts to tooltips.",
+      "Agastya, an agentic SDLC platform (about 13 AutoGen-based AI agent microservices): built the RAG knowledge-base console in React 19 and TypeScript, covering ingestion from files, websites, Confluence and Git, document versions, chunks, re-sync, redaction and a publish/reject approval step.",
+      "Built async ingestion job tracking that polls status and keeps state across page reloads using sessionStorage.",
+      "Built the SDLC audit trail and traceability module (about 70 files) linking requirements to acceptance criteria, tests, code, documents and QA, with role-based views, artefact diffs and sign-off.",
+      "Used AI-powered IDEs and coding agents for code generation, debugging, refactoring and documentation.",
+    ],
+  },
+  {
     title: "Software Engineer",
     company_name: "Capgemini",
     icon: capgemini,
     iconBg: "#383E56",
-    date: "August 2021- Present",
+    date: "August 2021- Jan 2025",
     points: [
       "Developed several server-side functionalities using Node.js and Express.js.",
       "Reduced API response time by an average of 100ms by implementing enhanced database queries, indexing and query optimization and caching mechanisms.",
-      " Developed responsive and intuitive user interfaces using React.js , leveraging state management with Redux for complex application logic.", 
+      " Developed responsive and intuitive user interfaces using React.js , leveraging state management with Redux for complex application logic.",
       "Optimized frontend performance by implementing code-splitting, lazy loading, and caching strategies , resulting in 15% faster load times.",
       "Collaborated with cross-functional teams including testers, product managers and other developers to create high-quality products.",
       "Conducted code reviews and facilitated pull requests to ensure high code quality and adherence to project standards.",
       "Streamlined API integration among services within an established Microservices framework.",
-      "Integrated Single Sign On in the application using OKTA as the service provider with OIDC."
+      "Integrated Single Sign On in the application using OKTA as the service provider with OIDC.",
     ],
   },
   {
@@ -125,7 +147,7 @@ const experiences = [
       "Completed internship focused on web fundamentals including HTML, CSS and JAVASCRIPT.",
       "Gained experience in developing web applications during this internship.",
       "Managed MySQL database management , including schema design, query optimization, and data manipulation.",
-      "Utilized Git for version control in a collaborative environment."
+      "Utilized Git for version control in a collaborative environment.",
     ],
   },
 ];
@@ -145,7 +167,6 @@ const trainings = [
       "Applied knowledge gained from the course to complete various projects, assigned assessments and mock interviews efficiently.",
     ],
   },
-  
 ];
 
 const projects = [

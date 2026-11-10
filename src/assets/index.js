@@ -20,8 +20,8 @@ import tailwind from "./tech/tailwind.png";
 import mui from "./tech/mui.png";
 import pesto from "./company/pesto.jpg";
 import capgemini from "./company/capg.png";
+import hsc from "./company/hsc.png";
 import resolvia from "./resolvia_home.png";
-
 
 export {
   logo,
@@ -45,7 +45,7 @@ export {
   tailwind,
   mui,
   capgemini,
+  hsc,
   resolvia,
   pesto,
-  
 };
